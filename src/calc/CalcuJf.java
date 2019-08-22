@@ -475,7 +475,29 @@ public class CalcuJf extends javax.swing.JFrame {
     }//GEN-LAST:event_jRadioButton1ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        int length= jTextField1.getText().length(); // return the length of the string and count words letters
+        int number = jTextField1.getText().length() -1;
+        
+        String store;
+        
+        if(length > 0)
+        {
+            //creates empty string builder with store String and back is object of StringBuilder.
+            //jTextField1.getText() värden av text field som stored in StringBuilder back
+        StringBuilder back= new StringBuilder(jTextField1.getText());
+        
+        //is delete single character from specific position.
+        //by number can be deleted on by one
+        back.deleteCharAt(number);
+        
+       //convert StringBuilder till String för textfield only tack String vädrde.
+        store=back.toString();
+        
+        //store variable set in setText() method
+        jTextField1.setText(store);
+        
+        }
+     
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
@@ -485,6 +507,7 @@ public class CalcuJf extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
+    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
