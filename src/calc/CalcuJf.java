@@ -11,9 +11,6 @@ package calc;
  */
 public class CalcuJf extends javax.swing.JFrame {
 
-    /**
-     * Creates new form CalcuJf
-     */
     public CalcuJf() {
         initComponents();
         
