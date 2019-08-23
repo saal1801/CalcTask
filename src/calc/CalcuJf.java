@@ -512,6 +512,7 @@ public class CalcuJf extends javax.swing.JFrame {
         calc = 4;
         jTextField1.setText("");
         jLabel1.setText(num + "");
+        
     }//GEN-LAST:event_jButton14ActionPerformed
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
