@@ -431,7 +431,7 @@ public class CalcuJf extends javax.swing.JFrame {
                     .addComponent(jButton19)
                     .addComponent(jButton16)
                     .addComponent(jButton18))
-                .addContainerGap(81, Short.MAX_VALUE))
+                .addContainerGap(63, Short.MAX_VALUE))
         );
 
         pack();
