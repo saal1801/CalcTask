@@ -51,7 +51,7 @@ public class CalcuJf extends javax.swing.JFrame {
     
     public void diseble(){
         
-        jTextField1.setEditable(false); //diseble
+        jTextField1.setEditable(false); //diseble //diseble
         
         jRadioButton1.setEnabled(true); // for enable button
         jRadioButton2.setEnabled(false); //for diseble button
