@@ -431,7 +431,7 @@ public class CalcuJf extends javax.swing.JFrame {
                     .addComponent(jButton19)
                     .addComponent(jButton16)
                     .addComponent(jButton18))
-                .addContainerGap(81, Short.MAX_VALUE))
+                .addContainerGap(63, Short.MAX_VALUE))
         );
 
         pack();
@@ -486,12 +486,11 @@ public class CalcuJf extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-         num = Double.parseDouble(jTextField1.getText());
-         calc = 2;
-         jTextField1.setText("");
-         jLabel1.setText(num + "");
-
-         //jTextField1.setText(jTextField1.getText() + "-");
+        num = Double.parseDouble(jTextField1.getText());
+        calc = 2;
+        jTextField1.setText("");
+        jLabel1.setText(num + "");
+        
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -502,11 +501,13 @@ public class CalcuJf extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+
         num = Double.parseDouble(jTextField1.getText());
         calc = 3;
         jTextField1.setText("");
         jLabel1.setText(num + "");
        //jTextField1.setText(jTextField1.getText() + "*");
+
     }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
@@ -514,7 +515,6 @@ public class CalcuJf extends javax.swing.JFrame {
         calc = 4;
         jTextField1.setText("");
         jLabel1.setText(num + "");
-      //jTextField1.setText(jTextField1.getText() + "/");
     }//GEN-LAST:event_jButton14ActionPerformed
 
     private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
